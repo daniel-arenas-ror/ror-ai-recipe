@@ -22,3 +22,8 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+# Run Docker
+docker run --name recipe-ai-postgres -e POSTGRES_PASSWORD=recie_ai_dev -d postgres
+
+docker compose up
